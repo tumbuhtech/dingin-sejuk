@@ -8,9 +8,9 @@ const FooterSection = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="text-xl font-bold text-background mb-3">❄️ CoolAC Service</h3>
+            <h3 className="text-xl font-bold text-background mb-3">❄️ Sahabat Cool AC</h3>
             <p className="text-sm leading-relaxed text-background/60">
-              Jasa service AC profesional terpercaya di Jabodetabek. Melayani dengan cepat, rapi, dan bergaransi.
+              Jasa service AC terbaik di <strong>Cibubur</strong>. Melayani perumahan di Citra Grand, Kota Wisata, Raffles Hills, dan sekitarnya.
             </p>
           </div>
           <div>
@@ -19,12 +19,12 @@ const FooterSection = () => {
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-primary" />
                 <a href={WA_LINK} target="_blank" rel="noopener noreferrer" className="hover:text-background transition-colors">
-                  0812-3456-7890
+                  0813-1616-3499 / 0852-8084-5245
                 </a>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-primary" />
-                <span>Jl. Sejuk Raya No. 123, Jakarta Selatan</span>
+                <span>Area Cibubur & Sekitarnya</span>
               </div>
               <div className="flex items-center gap-2">
                 <Clock className="w-4 h-4 text-primary" />
@@ -35,16 +35,16 @@ const FooterSection = () => {
           <div>
             <h4 className="font-semibold text-background mb-3">Layanan</h4>
             <ul className="space-y-1 text-sm text-background/60">
-              <li>Service AC</li>
-              <li>Cuci AC</li>
-              <li>Isi Freon</li>
+              <li>Service Cuci AC</li>
               <li>Bongkar Pasang AC</li>
-              <li>Maintenance Kantor</li>
+              <li>Pasang AC Baru</li>
+              <li>Service Besar / Overhaul</li>
+              <li>Isi Freon & Spare Part</li>
             </ul>
           </div>
         </div>
         <div className="border-t border-background/10 pt-6 text-center text-sm text-background/40">
-          © {new Date().getFullYear()} CoolAC Service. Semua hak dilindungi.
+          © {new Date().getFullYear()} Sahabat Cool AC. Semua hak dilindungi.
         </div>
       </div>
     </footer>

@@ -22,8 +22,11 @@ const Navbar = () => {
   return (
     <nav className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${scrolled ? "bg-card/95 backdrop-blur-md shadow-sm" : "bg-transparent"}`}>
       <div className="container mx-auto max-w-6xl px-4 flex items-center justify-between h-16">
-        <a href="#hero" className={`text-lg font-bold transition-colors ${scrolled ? "text-foreground" : "text-primary-foreground"}`}>
-          ❄️ CoolAC Service
+        <a href="#hero" className="flex items-center gap-2">
+          <img src="/logo.png" alt="Sahabat Cool AC" className="h-12 w-auto" />
+          <span className={`text-lg font-bold transition-colors ${scrolled ? "text-foreground" : "text-primary-foreground"}`}>
+            Sahabat Cool AC
+          </span>
         </a>
         <div className="hidden md:flex items-center gap-6">
           {navLinks.map((l) => (

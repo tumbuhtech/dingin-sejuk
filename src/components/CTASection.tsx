@@ -1,35 +1,25 @@
-import { Phone, AlertTriangle } from "lucide-react";
+import { Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import FadeInSection from "./FadeInSection";
 
-const WA_LINK = "https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20service%20AC";
+const WA_LINK = "https://wa.me/6281316163499?text=Halo%20Sahabat%20Cool%20AC%2C%20saya%20butuh%20layanan%20AC";
 
 const CTASection = () => {
   return (
-    <section className="section-padding bg-gradient-to-br from-primary to-accent relative overflow-hidden">
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-10 left-10 w-72 h-72 bg-primary-foreground/10 rounded-full blur-3xl" />
-        <div className="absolute bottom-10 right-10 w-96 h-96 bg-primary-foreground/5 rounded-full blur-3xl" />
-      </div>
-      <div className="container relative z-10 mx-auto max-w-3xl text-center">
-        <FadeInSection>
-          <div className="inline-flex items-center gap-2 bg-primary-foreground/15 backdrop-blur-sm rounded-full px-4 py-2 mb-6">
-            <AlertTriangle className="w-4 h-4 text-primary-foreground" />
-            <span className="text-primary-foreground text-sm font-medium">Jangan tunggu AC rusak total!</span>
-          </div>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-primary-foreground mb-4">
-            AC Bermasalah? Jangan Tunggu Rusak!
-          </h2>
-          <p className="text-primary-foreground/85 text-lg mb-8 max-w-xl mx-auto">
-            Hubungi kami sekarang dan teknisi profesional siap datang ke lokasi Anda hari ini juga.
-          </p>
-          <Button variant="hero" size="xl" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90" asChild>
-            <a href={WA_LINK} target="_blank" rel="noopener noreferrer">
-              <Phone className="!size-5" />
-              Hubungi via WhatsApp
-            </a>
-          </Button>
-        </FadeInSection>
+    <section className="py-20 bg-primary relative overflow-hidden">
+      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1516156008625-3a9d60da92e5?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-10 mix-blend-overlay"></div>
+      <div className="container mx-auto px-4 relative z-10 text-center">
+        <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+          Butuh Service AC di Cibubur?
+        </h2>
+        <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+          Hubungi Sahabat Cool AC sekarang dan dapatkan layanan terbaik dari teknisi berpengalaman.
+        </p>
+        <Button size="xl" variant="secondary" className="font-bold shadow-lg hover:shadow-xl transition-all" asChild>
+          <a href={WA_LINK} target="_blank" rel="noopener noreferrer">
+            <Phone className="mr-2 h-5 w-5" />
+            WhatsApp & Pesan Sekarang
+          </a>
+        </Button>
       </div>
     </section>
   );

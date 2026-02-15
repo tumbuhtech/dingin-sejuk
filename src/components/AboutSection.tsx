@@ -10,31 +10,48 @@ const features = [
 
 const AboutSection = () => {
   return (
-    <section id="tentang" className="section-padding bg-card">
+    <section id="tentang" className="section-padding bg-secondary/50">
       <div className="container mx-auto max-w-6xl">
-        <FadeInSection>
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Tentang <span className="text-gradient">Kami</span>
-            </h2>
-            <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-              Kami adalah penyedia jasa service AC terpercaya yang telah melayani ribuan pelanggan di Jabodetabek.
-              Dengan komitmen pada kualitas dan kepuasan pelanggan, kami siap menjadi solusi AC Anda.
-            </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div className="order-2 md:order-1">
+            <FadeInSection>
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+                Tentang <span className="text-gradient">Kami</span>
+              </h2>
+              <p className="text-muted-foreground text-lg leading-relaxed mb-6">
+                Fast Cool AC (Sahabat Cool AC) merupakan jasa service AC yang bergerak di bidang pendingin ruangan dan telah melayani pelanggan di wilayah Cibubur dengan teknisi profesional berpengalaman lebih dari 10 tahun.
+              </p>
+              <ul className="space-y-3 mb-8">
+                {[
+                  "Pekerjaan rapi dan jujur",
+                  "Respon cepat",
+                  "Komunikasi yang mudah dipahami",
+                  "Kepuasan pelanggan",
+                ].map((item, index) => (
+                  <li key={index} className="flex items-center gap-3">
+                    <div className="w-6 h-6 rounded-full bg-primary/20 flex items-center justify-center text-primary">
+                      ✓
+                    </div>
+                    <span className="text-foreground font-medium">{item}</span>
+                  </li>
+                ))}
+              </ul>
+              <p className="text-muted-foreground">
+                Sahabat Cool AC siap melayani kebutuhan AC rumah, ruko, kantor, maupun apartemen.
+              </p>
+            </FadeInSection>
           </div>
-        </FadeInSection>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {features.map((f, i) => (
-            <FadeInSection key={f.title} delay={i * 100}>
-              <div className="text-center p-6 rounded-xl bg-background border border-border card-hover">
-                <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                  <f.icon className="w-7 h-7 text-primary" />
-                </div>
-                <h3 className="font-semibold text-foreground mb-2">{f.title}</h3>
-                <p className="text-muted-foreground text-sm">{f.desc}</p>
+          <div className="order-1 md:order-2">
+            <FadeInSection delay={200}>
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-video md:aspect-square lg:aspect-video">
+                <img
+                  src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                  alt="Teknisi Service AC Cibubur Sahabat Cool AC"
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                />
               </div>
             </FadeInSection>
-          ))}
+          </div>
         </div>
       </div>
     </section>

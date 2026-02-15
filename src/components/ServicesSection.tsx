@@ -2,12 +2,12 @@ import { Snowflake, Wind, Droplets, ArrowRightLeft, ThermometerSun, Building2 } 
 import FadeInSection from "./FadeInSection";
 
 const services = [
-  { icon: Snowflake, title: "Service AC", desc: "Pengecekan menyeluruh dan perbaikan semua jenis masalah AC." },
-  { icon: Droplets, title: "Cuci AC", desc: "Pembersihan total indoor & outdoor untuk AC lebih dingin dan hemat listrik." },
-  { icon: Wind, title: "Isi Freon", desc: "Pengisian freon asli sesuai spesifikasi AC Anda." },
-  { icon: ArrowRightLeft, title: "Bongkar Pasang AC", desc: "Layanan bongkar pasang AC untuk pindah rumah atau renovasi." },
-  { icon: ThermometerSun, title: "Perbaikan AC Bocor / Tidak Dingin", desc: "Diagnosa dan perbaikan AC yang bocor air atau tidak dingin." },
-  { icon: Building2, title: "Maintenance AC Kantor & Gedung", desc: "Perawatan berkala AC untuk kantor, toko, dan gedung komersial." },
+  { icon: Snowflake, title: "Service Cuci AC", desc: "Pembersihan total indoor & outdoor (berkala) untuk AC lebih dingin dan sehat." },
+  { icon: ArrowRightLeft, title: "Bongkar & Pasang AC", desc: "Layanan bongkar pasang AC termasuk vakum untuk pindah rumah atau renovasi." },
+  { icon: Wind, title: "Pasang AC Baru", desc: "Pemasangan unit baru yang rapi, termasuk proses vakum sesuai standar." },
+  { icon: Droplets, title: "Service Besar / Overhaul", desc: "Perawatan mendalam untuk AC yang sangat kotor atau bermasalah berat." },
+  { icon: ThermometerSun, title: "Isi Freon AC", desc: "Penambahan atau pengisian ulang freon berkualitas sesuai jenis AC Anda." },
+  { icon: Building2, title: "Jual Beli & Spare Part", desc: "Layanan tambahan penjualan spare part AC dan jual beli AC bekas berkualitas." },
 ];
 
 const ServicesSection = () => {
