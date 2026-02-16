@@ -1,6 +1,6 @@
 import { MessageCircle } from "lucide-react";
 
-const WA_LINK = "https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20service%20AC";
+const WA_LINK = "https://wa.me/6281316163499?text=Halo%2C%20saya%20ingin%20service%20AC";
 
 const FloatingWhatsApp = () => {
   return (

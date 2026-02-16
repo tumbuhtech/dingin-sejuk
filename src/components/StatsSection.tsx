@@ -7,7 +7,7 @@ const stats = [
   { icon: Clock3, value: "10+", label: "Tahun Pengalaman" },
   { icon: MapPin, value: "5", label: "Kota Terjangkau" },
   { icon: Star, value: "4.9", label: "Rating Google" },
-  { icon: Zap, value: "<2 Jam", label: "Rata-rata Respon" },
+  { icon: Zap, value: "<1 Jam", label: "Rata-rata Respon" },
 ];
 
 const StatsSection = () => {

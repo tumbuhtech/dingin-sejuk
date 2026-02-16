@@ -19,7 +19,7 @@ const AboutSection = () => {
                 Tentang <span className="text-gradient">Kami</span>
               </h2>
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                Fast Cool AC (Sahabat Cool AC) merupakan jasa service AC yang bergerak di bidang pendingin ruangan dan telah melayani pelanggan di wilayah Cibubur dengan teknisi profesional berpengalaman lebih dari 10 tahun.
+                Sahabat Cool AC merupakan jasa service AC yang bergerak di bidang pendingin ruangan dan telah melayani pelanggan di wilayah Cibubur dengan teknisi profesional berpengalaman lebih dari 10 tahun.
               </p>
               <ul className="space-y-3 mb-8">
                 {[
