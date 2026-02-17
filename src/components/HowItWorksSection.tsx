@@ -4,7 +4,7 @@ import FadeInSection from "./FadeInSection";
 const steps = [
   { icon: Phone, step: "1", title: "Hubungi Kami", desc: "Chat via WhatsApp atau telepon, ceritakan keluhan AC Anda." },
   { icon: ClipboardList, step: "2", title: "Konsultasi & Estimasi", desc: "Teknisi kami memberikan estimasi harga dan waktu pengerjaan." },
-  { icon: UserCheck, step: "3", title: "Teknisi Datang", desc: "Teknisi profesional datang ke lokasi Anda sesuai jadwal." },
+  { icon: UserCheck, step: "3", title: "Teknisi Datang", desc: "Teknisi berpengalaman datang ke lokasi Anda sesuai jadwal." },
   { icon: Wrench, step: "4", title: "Pengerjaan", desc: "AC ditangani dengan peralatan modern dan standar tinggi." },
   { icon: ThumbsUp, step: "5", title: "Selesai & Bergaransi", desc: "AC kembali normal, Anda mendapat garansi pekerjaan." },
 ];

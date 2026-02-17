@@ -2,7 +2,7 @@ import { CheckCircle2 } from "lucide-react";
 import FadeInSection from "./FadeInSection";
 
 const reasons = [
-  "Teknisi profesional & bersertifikat",
+  "Teknisi berpengalaman & bersertifikat",
   "Respon cepat — bisa hari yang sama",
   "Harga jujur & transparan, tanpa biaya tersembunyi",
   "Bergaransi untuk setiap pekerjaan",
